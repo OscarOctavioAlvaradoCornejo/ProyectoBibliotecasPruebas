@@ -1,0 +1,193 @@
+/* 
+    Created on : 26 sept 2024, 15:18:58
+    Author     : oscar
+*/
+
+/* Diseño general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #4a90e2;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+button {
+    background-color: #4b5320;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #39481a;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead {
+    background-color: #4b5320;
+    color: white;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #e5e5e5;
+}
+
+th {
+    font-weight: bold;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    background-color: #f1f1f1;
+}
+
+/* Selectores múltiples */
+select[multiple] {
+    height: 150px;
+    padding: 10px;
+}
+
+/* Sección de errores */
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+
+/* Actualiza los estilos del botón */
+button.btn {
+    background-color: #4b5320 !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 15px !important;
+    border-radius: 5px !important;
+}
+
+button.btn:hover {
+    background-color: #3d4419 !important;
+}
+
+/* Estilos para la tabla */
+table thead {
+    background-color: #4b5320 !important;
+    color: white !important;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #e6e6e6 !important;
+}
+
+table tbody tr:hover {
+    background-color: #d4d4d4 !important;
+}
+/* Estilos para el navbar */
+.navbar {
+    background-color: #343a40; /* Fondo oscuro para el navbar */
+}
+
+.navbar .nav-link {
+    color: #3d4419; /* Color del texto de los enlaces */
+    transition: color 0.3s; /* Transición suave para el hover */
+}
+
+.navbar .nav-link:hover {
+    color: #3d4419; /* Color del texto al pasar el mouse */
+}
+
+/* Alternativa si usas Bootstrap */
+.navbar-light .navbar-nav .nav-link {
+    color: #fff; /* Asegúrate de que los enlaces sean blancos */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #4a90e2; /* Color al pasar el mouse */
+}
+.nav-item{
+    background-color: #343a40; 
+}
+
